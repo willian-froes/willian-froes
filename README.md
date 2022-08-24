@@ -1,6 +1,6 @@
 ## Olá, eu sou Willian Froes, desenvolvedor Full stack e pós-graduando em Eng. mobile e Design UX/UI!
 
-<div style="display: inline_block" align="center">
+<div style="display: inline_block">
   <a href="https://github.com/willian-froes">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=willian-froes&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=willian-froes&layout=compact&langs_count=7&theme=dracula"/>
