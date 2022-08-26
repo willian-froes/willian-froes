@@ -19,66 +19,92 @@
     <p>No meu dia a dia de trabalho e, em projetos pessoais, há algumas linguagens e ferramentas que utilizo para prototipagem e desenvolvimento, são elas:</p>
     <br />
     <div align='center'>
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />
+        <a href='https://www.figma.com/'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+        <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+        <a href='https://developer.mozilla.org/pt-BR/docs/Web/CSS'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+        <a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
+        <a href='https://www.typescriptlang.org/'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://seeklogo.com/images/R/react-native-logo-221C671C70-seeklogo.com.png" />
+        <a href='https://reactnative.dev/'>
+            <img height='59px' width='59px' src="https://seeklogo.com/images/R/react-native-logo-221C671C70-seeklogo.com.png" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+        <a href='https://reactjs.org/'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+        </a>
     </div>
     <br />
     <div align='center'>
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
+        <a href='https://jestjs.io/'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" />
+        <a href='https://nodejs.org/'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" />
+        <a href='https://flask.palletsprojects.com/en/2.2.x/'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+        <a href='https://www.python.org/'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
+        <a href='https://www.mysql.com/'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" />
+        <a href='https://www.mongodb.com/'>
+            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" />
+        </a>
     </div>
     <br />
 </div>
