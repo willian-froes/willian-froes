@@ -1,7 +1,4 @@
-
-<font align='center' size='5'><b>Olá 👋, me chamo Willian Froes</b></font>
-
-<h2 align='center' border='none' border='0'><b>Olá 👋, me chamo Willian Froes</b></h2>
+<h2 align='center'><b>Olá 👋, me chamo Willian Froes</b></h2>
 <hr />
 
 <div>
