@@ -105,11 +105,15 @@
     <h4 align='center'><b>Siga-me nas redes sociais</b></h4>
     <br />
     <div align='center'>
-        <img height='37px' width='37px' src="src/img/instagram_icon.png" />
+        <a href="https://www.instagram.com/willian.froes/">
+            <img height='37px' width='37px' src="src/img/instagram_icon.png" />
+        </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
-        <img height='37px' width='37px' src="src/img/linkedin_icon.png" />
+        <a href="https://www.linkedin.com/in/willian-froes/">
+            <img height='37px' width='37px' src="src/img/linkedin_icon.png" />
+        </a>
     </div>
 </div>
