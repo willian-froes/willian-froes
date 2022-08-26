@@ -140,8 +140,8 @@
     <h2 class="metrics-section-title">Veja aqui algumas métricas do meu perfíl</h2>
     <span>Observe quantos commits, PRs e outros dados foram contabilizados em todos meus repositórios, também visualize as linguagens utilizadas.</span>
     <div class="metrics-container">
-        <img width='60%' src="https://github-readme-stats.vercel.app/api?username=willian-froes&show_icons=true&count_private=true&hide_border=false&locale=pt-br&border_color=6F6E76&title_color=B63339&icon_color=B63339&text_color=c9d1d9&bg_color=0d1117" alt="Matheus Maia Alvarez github stats" /> 
-        <img width='38%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=willian-froes&layout=compact&hide_border=false&locale=pt-br&border_color=6F6E76&title_color=B63339&text_color=B63339&bg_color=0d1117" />
+        <img width='60%' src="https://github-readme-stats.vercel.app/api?username=willian-froes&show_icons=true&count_private=true&hide_border=false&locale=pt-br&border_color=6F6E76&title_color=B63339&icon_color=B63339&text_color=c9d1d9&bg_color=00000000" /> 
+        <img width='38%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=willian-froes&layout=compact&hide_border=false&locale=pt-br&border_color=6F6E76&title_color=B63339&text_color=B63339&bg_color=00000000" />
     </div>
 </div>
 
