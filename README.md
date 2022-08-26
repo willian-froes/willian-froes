@@ -92,3 +92,10 @@
         <img align='top' width='38%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=willian-froes&layout=compact&hide_border=false&locale=pt-br&border_color=6F6E76&title_color=B63339&text_color=B63339&bg_color=00000000" />
     </div>
 </div>
+<hr />
+<div>
+<h2><b>Gostou do meu trabalho?</b></h2>
+    <p>Você sabia que quanto mais copos de café um desenvolvedor consome, novos cases surgem? Se curtiu algum, aproveite para contribuir com um copo de café agora mesmo!</p>
+    <br />
+    <p><a href="https://www.buymeacoffee.com/willianfroes"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="48" width="200" alt="willianfroes" /></a></p>
+</div>
