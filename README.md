@@ -6,15 +6,15 @@
 <img align='right' width='188px' height='188px' src='src/img/profile.gif' />
 <div style='background: red' align="left">
 
-- 🔭 Desenvolvedor Full Stack Pleno na Liven
+<h4>🔭 Desenvolvedor Full Stack Pleno na Liven</h4>
 
-- 📕 Pós-graduando em Eng. mobile e Design UX/UI
+<h4>📕 Pós-graduando em Eng. mobile e Design UX/UI</h4>
 
-- 🏅 PCEP - Certified Entry-Level Python Programmer
+<h4>🏅 PCEP - Certified Entry-Level Python Programmer</h4>
 
-- 🏅 HCIA Cloud Service Associate
+<h4>🏅 HCIA Cloud Service Associate</h4>
 
-- 🕹️ Nas horas vagas, jogo games retrô e coleciono bonecos
+<h4>🕹️ Nas horas vagas, jogo games retrô e coleciono bonecos</h4>
 
 </div>
 </div>
