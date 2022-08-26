@@ -1,4 +1,76 @@
-<h1 align="center">Hi 👋, I'm Willian Froes</h1>
+<style>
+    @font-face { 
+        font-family: RobotoRegular;
+        src: url(src/font/roboto-regular.woff);
+    }
+
+    @font-face { 
+        font-family: RobotoBold;
+        src: url(src/font/roboto-bold.woff);
+    }
+
+    .profile-title {
+        font-family: RobotoBold;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .activities-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activities-phrase {
+        font-family: RobotoBold;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .activities-items-article {
+        display: flex;
+        flex: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .activities-list {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+    }
+
+    .activities-list-item {
+        font-family: RobotoRegular;
+        font-size: 14px;
+    }
+
+    .activities-gif {
+        height: 188px;
+        width: 188px;
+    }
+</style>
+
+<h1 class="profile-title">Olá 👋, me chamo Willian Froes</h1>
+
+<div class="activities-section">
+    <h3 class="activities-phrase">Desenvolvo software do protótipo ao produto, veja aqui alguns cases!</h3>
+    <div class="activities-items-article">
+        <div class="activities-list">
+            <h5 class="activities-list-item">🔭 Desenvolvedor Full Stack Pleno na Liven</h5>
+            <h5 class="activities-list-item">📕 Pós-graduando em Eng. mobile e Design UX/UI</h5>
+            <h5 class="activities-list-item">🏅 PCEP - Certified Entry-Level Python Programmer</h5>
+            <h5 class="activities-list-item">🏅 HCIA Cloud Service Associate</h5>
+            <h5 class="activities-list-item">🕹️ Nas horas vagas, jogo games retrô e coleciono bonecos</h5>
+        </div>
+        <img class="activities-gif" src='src/img/profile.gif' />
+    </div>
+</div>
+
+
+
+<!-- <h1 align="center">Hi 👋, I'm Willian Froes</h1>
 <h3 align="center">I'm drink coffe while work into full stack development and design products!</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=willian-froes&label=Profile%20views&color=0e75b6&style=flat" alt="willian-froes" /> </p>
@@ -21,4 +93,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=willian-froes&show_icons=true&locale=en" alt="willian-froes" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=willian-froes&" alt="willian-froes" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=willian-froes&" alt="willian-froes" /></p> -->
