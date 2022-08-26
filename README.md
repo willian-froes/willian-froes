@@ -96,7 +96,7 @@
     }
 </style>
 
-<h1 class="profile-title">Olá 👋, me chamo Willian Froes</h1>
+<h1 style="font-size: 22px; text-align: center;">Olá 👋, me chamo Willian Froes</h1>
 
 <div class="activities-section">
     <h3 class="activities-phrase">Desenvolvo software do protótipo ao produto, veja aqui alguns cases!</h3>
