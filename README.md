@@ -12,6 +12,4 @@
 <p>🕹️ Nas horas vagas, jogo games retrô e coleciono bonecos</p>
 </div>
 </div>
-<br />
-<br />
 <hr />
