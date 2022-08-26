@@ -94,8 +94,15 @@
 </div>
 <hr />
 <div>
-<h2><b>Gostou do meu trabalho?</b></h2>
+    <h2><b>Gostou do meu trabalho?</b></h2>
     <p>Você sabia que quanto mais copos de café um desenvolvedor consome, novos cases surgem? Se curtiu algum, aproveite para contribuir com um copo de café agora mesmo!</p>
     <br />
     <p><a href="https://www.buymeacoffee.com/willianfroes"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="48" width="200" alt="willianfroes" /></a></p>
+    <br />
+</div>
+<hr />
+<div>
+    <h4 align='center'><b>Siga-me nas redes sociais</b></h4>
+    <br />
+    
 </div>
