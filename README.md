@@ -104,5 +104,12 @@
 <div>
     <h4 align='center'><b>Siga-me nas redes sociais</b></h4>
     <br />
-    
+    <div align='center'>
+        <img height='37px' width='37px' src="src/img/instagram_icon.png" />
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <img height='37px' width='37px' src="src/img/linkedin_icon.png" />
+    </div>
 </div>
