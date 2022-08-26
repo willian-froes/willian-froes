@@ -1,6 +1,4 @@
-<summary>
-    <h2 align='center'><b>Olá 👋, me chamo Willian Froes</b></h2>
-</summary>
+<h2 align='center'><b><p>Olá 👋, me chamo Willian Froes</p></b></h2>
 <hr />
 
 <div>
