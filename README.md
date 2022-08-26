@@ -9,6 +9,11 @@
         src: url(src/font/roboto-bold.woff);
     }
 
+    .line {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .profile-title {
         font-family: RobotoBold;
         font-size: 22px;
@@ -50,6 +55,37 @@
         height: 188px;
         width: 188px;
     }
+
+    .lang-tools-section-title {
+        font-family: RobotoBold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .lang-tool-item {
+        height: 59px;
+        width: 59px;
+    }
+
+    .lang-tools-list-between {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .lang-tools-list-evenly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .lang-tools-lists-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 </style>
 
 <h1 class="profile-title">Olá 👋, me chamo Willian Froes</h1>
@@ -65,6 +101,30 @@
             <h5 class="activities-list-item">🕹️ Nas horas vagas, jogo games retrô e coleciono bonecos</h5>
         </div>
         <img class="activities-gif" src='src/img/profile.gif' />
+    </div>
+</div>
+<hr class="line" />
+<div class="lang-tools-section">
+    <h2 class="lang-tools-section-title">Linguagens e ferramentas no meu dia a dia</h2>
+    <span>No meu dia a dia de trabalho e, em projetos pessoais, há algumas tecnologias que trabalho ativamente, são elas:</span>
+    <div class="lang-tools-lists-container">
+        <div class="lang-tools-list-between"> 
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
+            <img class="lang-tool-item" src="https://seeklogo.com/images/R/react-native-logo-221C671C70-seeklogo.com.png" />
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+        </div>
+        <div class="lang-tools-list-evenly"> 
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" />
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" />
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
+            <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" />
+        </div>
     </div>
 </div>
 
