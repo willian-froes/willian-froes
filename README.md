@@ -4,17 +4,17 @@
 <h4 align='center'><b>Desenvolvo software do protótipo ao produto, veja aqui alguns cases!</b></h4>
 <br />
 <img align='right' width='188px' height='188px' src='src/img/profile.gif' />
-<div style='background: red' align="left">
+<div align="left">
 
-<h4>🔭 Desenvolvedor Full Stack Pleno na Liven</h4>
+<p>🔭 Desenvolvedor Full Stack Pleno na Liven</p>
 
-<h4>📕 Pós-graduando em Eng. mobile e Design UX/UI</h4>
+<p>📕 Pós-graduando em Eng. mobile e Design UX/UI</p>
 
-<h4>🏅 PCEP - Certified Entry-Level Python Programmer</h4>
+<p>🏅 PCEP - Certified Entry-Level Python Programmer</p>
 
-<h4>🏅 HCIA Cloud Service Associate</h4>
+<p>🏅 HCIA Cloud Service Associate</p>
 
-<h4>🕹️ Nas horas vagas, jogo games retrô e coleciono bonecos</h4>
+<p>🕹️ Nas horas vagas, jogo games retrô e coleciono bonecos</p>
 
 </div>
 </div>
