@@ -96,7 +96,6 @@
     }
 </style>
 
-<div style='font-size: 100px; text-align: center;'>TESTE</div>
 <h1 class="profile-title">Olá 👋, me chamo Willian Froes</h1>
 
 <div class="activities-section">
