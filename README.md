@@ -56,7 +56,7 @@
         width: 188px;
     }
 
-    .lang-tools-section-title {
+    .lang-tools-section-title, .metrics-section-title {
         font-family: RobotoBold;
         font-size: 18px;
         margin-bottom: 10px;
@@ -85,6 +85,14 @@
         gap: 30px;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .metrics-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 30px;
     }
 </style>
 
@@ -125,6 +133,15 @@
             <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
             <img class="lang-tool-item" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" />
         </div>
+    </div>
+</div>
+<hr class="line" />
+<div class="metrics-section">
+    <h2 class="metrics-section-title">Veja aqui algumas métricas do meu perfíl</h2>
+    <span>Observe quantos commits, PRs e outros dados foram contabilizados em todos meus repositórios, também visualize as linguagens utilizadas.</span>
+    <div class="metrics-container">
+        <img width='60%' src="https://github-readme-stats.vercel.app/api?username=willian-froes&show_icons=true&count_private=true&hide_border=false&locale=pt-br&border_color=6F6E76&title_color=B63339&icon_color=B63339&text_color=c9d1d9&bg_color=0d1117" alt="Matheus Maia Alvarez github stats" /> 
+        <img width='38%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=willian-froes&layout=compact&hide_border=false&locale=pt-br&border_color=6F6E76&title_color=B63339&text_color=B63339&bg_color=0d1117" />
     </div>
 </div>
 
