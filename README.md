@@ -83,3 +83,12 @@
     <br />
 </div>
 <hr />
+<div>
+<h2><b>Linguagens e ferramentas no meu dia a dia</b></h2>
+    <p>Observe quantos commits, PRs e outros dados foram contabilizados em todos meus repositórios, também visualize as linguagens utilizadas.</p>
+    <br />
+    <div class="metrics-container">
+        <img width='60%' src="https://github-readme-stats.vercel.app/api?username=willian-froes&show_icons=true&count_private=true&hide_border=false&locale=pt-br&border_color=6F6E76&title_color=B63339&icon_color=B63339&text_color=c9d1d9&bg_color=00000000" /> 
+        <img align='top' width='38%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=willian-froes&layout=compact&hide_border=false&locale=pt-br&border_color=6F6E76&title_color=B63339&text_color=B63339&bg_color=00000000" />
+    </div>
+</div>
