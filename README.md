@@ -16,7 +16,7 @@
 <hr />
 <div>
     <h2><b>Linguagens e ferramentas no meu dia a dia</b></h2>
-    <h4>No meu dia a dia de trabalho e, em projetos pessoais, há algumas tecnologias que trabalho ativamente, são elas:</h4>
+    <p>No meu dia a dia de trabalho e, em projetos pessoais, há algumas tecnologias que trabalho ativamente, são elas:</p>
     <br />
     <div align='center'>
         <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />
