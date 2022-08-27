@@ -13,7 +13,6 @@
     </div>
 </div>
 <br />
-<br />
 <hr />
 <div>
     <h3><b>Linguagens e ferramentas no meu dia a dia</b></h3>
