@@ -1,5 +1,4 @@
 <h3 align='center'><b>Olá 👋, me chamo Willian Froes</b></h3>
-<hr />
 <div>
     <h4 align='center'><b>Desenvolvo software do protótipo ao produto, veja aqui alguns cases!</b></h4>
     <br />
