@@ -4,10 +4,7 @@
     <br />
     <img align='right' width='250px' height='250px' src='img/profile.gif' />
     <div align="left">
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
+        <br /><br />
         <p>🔭 Desenvolvedor Full Stack Pleno na Liven</p>
         <p>📕 Pós-graduando em Eng. mobile e Design UX/UI</p>
         <p>🏅 PCEP - Certified Entry-Level Python Programmer</p>
