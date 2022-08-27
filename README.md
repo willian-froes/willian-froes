@@ -80,11 +80,9 @@
         &nbsp;
         &nbsp;
         &nbsp;
-        &nbsp;
         <a href='https://flask.palletsprojects.com/en/2.2.x/'>
             <img height='67px' width='67px' src="img/flask_icon.png" />
         </a>
-        &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
