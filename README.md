@@ -1,4 +1,4 @@
-<h2 align='center'><b>Olá 👋, me chamo Willian Froes</b></h2>
+<h3 align='center'><b>Olá 👋, me chamo Willian Froes</b></h3>
 <hr />
 
 <div>
@@ -16,7 +16,7 @@
 <br />
 <hr />
 <div>
-    <h2><b>Linguagens e ferramentas no meu dia a dia</b></h2>
+    <h3><b>Linguagens e ferramentas no meu dia a dia</b></h3>
     <p>No meu dia a dia de trabalho e, em projetos pessoais, há algumas linguagens e ferramentas que utilizo para prototipagem e desenvolvimento, são elas:</p>
     <br />
     <div align='center'>
@@ -111,7 +111,7 @@
 </div>
 <hr />
 <div>
-<h2><b>Linguagens e ferramentas no meu dia a dia</b></h2>
+    <h3><b>Linguagens e ferramentas no meu dia a dia</b></h3>
     <p>Observe quantos commits, PRs e outros dados foram contabilizados em todos meus repositórios, também visualize as linguagens utilizadas.</p>
     <br />
     <div>
@@ -121,7 +121,7 @@
 </div>
 <hr />
 <div>
-    <h2><b>Gostou do meu trabalho?</b></h2>
+    <h3><b>Gostou do meu trabalho?</b></h3>
     <p>Você sabia que quanto mais copos de café um desenvolvedor consome, novos cases surgem? Se curtiu algum, aproveite para contribuir com um copo de café agora mesmo!</p>
     <br />
     <p><a href="https://www.buymeacoffee.com/willianfroes"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="48" width="200" alt="willianfroes" /></a></p>
