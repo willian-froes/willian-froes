@@ -82,7 +82,7 @@
         &nbsp;
         &nbsp;
         <a href='https://flask.palletsprojects.com/en/2.2.x/'>
-            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" />
+            <img height='67px' width='67px' src="img/flask_icon.png" />
         </a>
         &nbsp;
         &nbsp;
@@ -107,10 +107,12 @@
         </a>
     </div>
     <br />
+    <h6 align='center'>(quer conhecer alguma delas? clique em qualquer uma!)</h6>
+    <br />
 </div>
 <hr />
 <div>
-    <h3><b>Linguagens e ferramentas no meu dia a dia</b></h3>
+    <h3><b>LVeja aqui algumas métricas dos repositórios</b></h3>
     <p>Observe quantos commits, PRs e outros dados foram contabilizados em todos meus repositórios, também visualize as linguagens utilizadas.</p>
     <br />
     <div>
