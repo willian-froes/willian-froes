@@ -108,11 +108,10 @@
     </div>
     <br />
     <h6 align='center'>(quer conhecer alguma delas? clique em qualquer uma!)</h6>
-    <br />
 </div>
 <hr />
 <div>
-    <h3><b>LVeja aqui algumas métricas dos repositórios</b></h3>
+    <h3><b>Veja aqui algumas métricas dos repositórios</b></h3>
     <p>Observe quantos commits, PRs e outros dados foram contabilizados em todos meus repositórios, também visualize as linguagens utilizadas.</p>
     <br />
     <div>
