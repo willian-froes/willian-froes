@@ -6,6 +6,8 @@
     <div align="left">
         &nbsp;
         &nbsp;
+        &nbsp;
+        &nbsp;
         <p>🔭 Desenvolvedor Full Stack Pleno na Liven</p>
         <p>📕 Pós-graduando em Eng. mobile e Design UX/UI</p>
         <p>🏅 PCEP - Certified Entry-Level Python Programmer</p>
@@ -13,6 +15,7 @@
         <p>🕹️ Nas horas vagas, jogo games retrô e coleciono bonecos</p>
     </div>
 </div>
+<br />
 <br />
 <hr />
 <div>
