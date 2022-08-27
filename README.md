@@ -1,10 +1,9 @@
 <h3 align='center'><b>Olá 👋, me chamo Willian Froes</b></h3>
 <hr />
-
 <div>
     <h4 align='center'><b>Desenvolvo software do protótipo ao produto, veja aqui alguns cases!</b></h4>
     <br />
-    <img align='right' width='188px' height='188px' src='src/img/profile.gif' />
+    <img align='right' width='188px' height='188px' src='img/profile.gif' />
     <div align="left">
         <p>🔭 Desenvolvedor Full Stack Pleno na Liven</p>
         <p>📕 Pós-graduando em Eng. mobile e Design UX/UI</p>
@@ -134,14 +133,14 @@
     <br />
     <div align='center'>
         <a href="https://www.instagram.com/willian.froes/">
-            <img height='37px' width='37px' src="src/img/instagram_icon.png" />
+            <img height='37px' width='37px' src="img/instagram_icon.png" />
         </a>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
         <a href="https://www.linkedin.com/in/willian-froes/">
-            <img height='37px' width='37px' src="src/img/linkedin_icon.png" />
+            <img height='37px' width='37px' src="img/linkedin_icon.png" />
         </a>
     </div>
 </div>
