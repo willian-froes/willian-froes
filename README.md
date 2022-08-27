@@ -13,6 +13,7 @@
         <p>🕹️ Nas horas vagas, jogo games retrô e coleciono bonecos</p>
     </div>
 </div>
+<br />
 <hr />
 <div>
     <h2><b>Linguagens e ferramentas no meu dia a dia</b></h2>
