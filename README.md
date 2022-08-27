@@ -3,6 +3,7 @@
     <h4 align='center'><b>Desenvolvo software do protótipo ao produto, veja aqui alguns cases!</b></h4>
     <br />
     <img align='right' width='188px' height='188px' src='img/profile.gif' />
+    &nbsp;
     <div align="left">
         <p>🔭 Desenvolvedor Full Stack Pleno na Liven</p>
         <p>📕 Pós-graduando em Eng. mobile e Design UX/UI</p>
