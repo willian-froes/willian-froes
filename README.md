@@ -7,6 +7,10 @@
         <br />
         <p>🔭 Desenvolvedor Front-end Web/Mobile Sênior e Designer UX/U </p>
         <p>📕 Pós-graduado em Eng. mobile e Design UX/UI</p>
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
 </div>
 <br />
