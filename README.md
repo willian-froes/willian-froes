@@ -41,13 +41,6 @@
         &nbsp;
         &nbsp;
         &nbsp;
-        <a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'>
-            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
-        </a>
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
         <a href='https://www.typescriptlang.org/'>
             <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
         </a>
@@ -66,7 +59,6 @@
             <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
         </a>
     </div>
-    <br />
     <h6 align='center'>(quer conhecer alguma delas? clique em qualquer uma!)</h6>
 </div>
 <hr />
