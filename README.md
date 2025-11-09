@@ -5,10 +5,8 @@
     <img align='right' width='210px' height='210px' src='img/profile.gif' />
     <div align="left">
         <br />
-        <p>🔭 Desenvolvedor Mobile na EstrelaBet</p>
+        <p>🔭 Desenvolvedor Front-end Web/Mobile Sênior e Designer UX/U </p>
         <p>📕 Pós-graduado em Eng. mobile e Design UX/UI</p>
-        <p>🏅 PCEP - Certified Entry-Level Python Programmer</p>
-        <p>🏅 HCIA Cloud Service Associate</p>
     </div>
 </div>
 <br />
@@ -65,45 +63,6 @@
         </a>
     </div>
     <br />
-    <div align='center'>
-        <a href='https://jestjs.io/'>
-            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
-        </a>
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        <a href='https://nodejs.org/'>
-            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" />
-        </a>
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        <a href='https://flask.palletsprojects.com/en/2.2.x/'>
-            <img height='67px' width='67px' src="img/flask_icon.png" />
-        </a>
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        <a href='https://www.python.org/'>
-            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
-        </a>
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        <a href='https://www.mysql.com/'>
-            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
-        </a>
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        &nbsp;
-        <a href='https://www.mongodb.com/'>
-            <img height='59px' width='59px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" />
-        </a>
-    </div>
-    <br />
     <h6 align='center'>(quer conhecer alguma delas? clique em qualquer uma!)</h6>
 </div>
 <hr />
@@ -116,7 +75,6 @@
         <img align='top' width='38%' src="https://github-readme-stats.vercel.app/api/top-langs/?username=willian-froes&layout=compact&hide_border=false&locale=pt-br&border_color=6F6E76&title_color=B63339&text_color=B63339&bg_color=00000000" />
     </div>
 </div>
-<hr />
 <hr />
 <div>
     <h4 align='center'><b>Siga-me nas redes sociais</b></h4>
