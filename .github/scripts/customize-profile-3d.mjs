@@ -1,4 +1,4 @@
-import { existsSync, readFileSync, renameSync, unlinkSync, writeFileSync } from 'node:fs';
+import { copyFileSync, existsSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const svgPath = join('profile-3d-contrib', 'profile-gitblock.svg');
@@ -79,7 +79,7 @@ if (year) {
     throw new Error(`YEAR must be a four-digit year, got: ${year}`);
   }
   const outputDirectory = 'profile-3d-contrib';
-  renameSync(svgPath, join(outputDirectory, `profile-gitblock-${year}.svg`));
+  copyFileSync(svgPath, join(outputDirectory, `profile-gitblock-${year}.svg`));
   for (const file of [
     'profile-green-animate.svg',
     'profile-green.svg',
