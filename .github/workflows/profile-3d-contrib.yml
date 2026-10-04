@@ -38,6 +38,10 @@ jobs:
 
       - name: Make GitBlock transparent and add contribution legend
         run: node .github/scripts/customize-profile-3d.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          YEAR: ${{ inputs.year }}
 
       - name: Commit refreshed chart for the profile README
         run: |
