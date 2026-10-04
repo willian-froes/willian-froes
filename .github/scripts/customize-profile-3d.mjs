@@ -248,13 +248,13 @@ for (const label of ['Contribution levels', 'Contribution languages']) {
 const contributionSummary = '>contributions</text>';
 if (svg.includes(contributionSummary)) {
   // The generator places the date in the same group as the contribution total.
-  // Preserve the date while removing the numerical summary and its icons.
-  const dateLabel = svg.match(
-    /<text style="font-size: 16px;" x="1260" y="20"[^>]*>[^<]*<\/text>/,
-  )?.[0];
+  // Removing the group keeps the graph focused on the language blocks.
   svg = removeContainingGroup(svg, contributionSummary);
-  if (dateLabel) svg = svg.replace('</svg>', `${dateLabel}</svg>`);
 }
+svg = svg.replace(
+  /<text style="font-size: 16px;" x="1260" y="20"[^>]*>[^<]*<\/text>/g,
+  '',
+);
 svg = svg.replace(/\.fill-bg\s*\{\s*fill:\s*[^;]+;/, '.fill-bg { fill: transparent;');
 svg = svg.replace(/\.stroke-bg\s*\{\s*stroke:\s*[^;]+;/, '.stroke-bg { stroke: transparent;');
 const darkStyles =
@@ -383,19 +383,29 @@ svg = svg.replace('</defs>', `${blockPatternDefinitions.join('')}</defs>`);
 
 const legendItems = topLanguages.map((name) => ({ name, color: colors.get(name) }));
 
+function legendBlock(color) {
+  const left = shade(color, 0.84);
+  const right = shade(color, 0.7);
+  const stud = shade(color, 0.62);
+  return `<path d="M1 5 10 0 19 5 10 10Z" fill="${color}"/><path d="M1 5 10 10V19L1 14Z" fill="${left}"/><path d="M10 10 19 5V14L10 19Z" fill="${right}"/><ellipse cx="7" cy="5" rx="2" ry="1" fill="${stud}"/><ellipse cx="13" cy="5" rx="2" ry="1" fill="${stud}"/>`;
+}
+
 const legend = `<g aria-label="Contribution languages" transform="translate(40, 865)">${legendItems
   .map((item, index) => {
     const x = (index % 4) * 300;
     const y = Math.floor(index / 4) * 28;
     const label = item.name.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-    return `<g transform="translate(${x}, ${y})"><rect width="16" height="16" rx="2" fill="${item.color}" stroke="#888"/><text x="23" y="13" class="fill-fg" font-size="16">${label}</text></g>`;
+    return `<g transform="translate(${x}, ${y})">${legendBlock(item.color)}<text x="27" y="14" class="fill-fg" font-size="16">${label}</text></g>`;
   })
   .join('')}</g>`;
 
-const outputHeight = Math.max(980, 865 + Math.ceil(legendItems.length / 4) * 28 + 20);
+const contentHeight = 865 + Math.ceil(legendItems.length / 4) * 28 + 20;
+const crop = { left: 24, top: 12, right: 24, bottom: 12 };
+const outputWidth = 1280 - crop.left - crop.right;
+const outputHeight = contentHeight - crop.top - crop.bottom;
 svg = svg.replace(
-  /height="850" viewBox="0 0 1280 850"/,
-  `height="${outputHeight}" viewBox="0 0 1280 ${outputHeight}"`,
+  /width="\d+" height="\d+" viewBox="[^"]+"/,
+  `width="${outputWidth}" height="${outputHeight}" viewBox="${crop.left} ${crop.top} ${outputWidth} ${outputHeight}"`,
 );
 svg = svg.replace('</svg>', `${legend}</svg>`);
 writeFileSync(svgPath, svg);
