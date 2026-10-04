@@ -1,4 +1,6 @@
-b
+<img src="./willian-froes-terminal-profile-transparent-v2.gif" width="100%" />
+
+<br />
 
 <p align="center">
   <a href="https://skillicons.dev">
