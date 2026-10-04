@@ -1,4 +1,4 @@
-<img src="./willian-froes-terminal-profile-transparent-v2.gif" width="100%" />
+<img src="./willian-froes-terminal-profile-final-large-text.gif" width="100%" />
 
 <br />
 
