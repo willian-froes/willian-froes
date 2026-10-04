@@ -348,6 +348,7 @@ function originalGroundPatterns() {
 
 const groundPatterns = originalGroundPatterns();
 let barIndex = 0;
+let graphTop = Infinity;
 svg = svg.replace(
   /<g transform="translate\((-?[\d.]+) (-?[\d.]+)\)">([\s\S]*?)<\/g>/g,
   (bar, x, y, content) => {
@@ -355,6 +356,8 @@ svg = svg.replace(
     if (rects.length !== 3) return bar;
     const day = displayLanguageByDay[barIndex++];
     if (!day) throw new Error('More 3D blocks were generated than contribution days returned by GraphQL.');
+    // The top face extends roughly 11 px above the group's translation point.
+    graphTop = Math.min(graphTop, Number(y) - 11);
     const patterns = day.type === 'ground' ? groundPatterns : blockPatterns(day.color);
     const faceFills = blockFaces.map(([face]) => `url(#${patterns[face]})`);
     let faceIndex = 0;
@@ -378,6 +381,9 @@ if (barIndex !== displayLanguageByDay.length) {
     `Expected ${displayLanguageByDay.length} calendar blocks but found ${barIndex}.`,
   );
 }
+if (!Number.isFinite(graphTop)) {
+  throw new Error('Could not determine the top edge of the GitBlock calendar.');
+}
 
 svg = svg.replace('</defs>', `${blockPatternDefinitions.join('')}</defs>`);
 
@@ -400,7 +406,12 @@ const legend = `<g aria-label="Contribution languages" transform="translate(40, 
   .join('')}</g>`;
 
 const contentHeight = 865 + Math.ceil(legendItems.length / 4) * 28 + 20;
-const crop = { left: 24, top: 12, right: 24, bottom: 12 };
+const crop = {
+  left: 24,
+  top: Math.max(0, Math.floor(graphTop - 16)),
+  right: 24,
+  bottom: 12,
+};
 const outputWidth = 1280 - crop.left - crop.right;
 const outputHeight = contentHeight - crop.top - crop.bottom;
 svg = svg.replace(
