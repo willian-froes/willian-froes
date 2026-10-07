@@ -61,59 +61,12 @@
 
 <br />
 
-<table
-  align="center"
-  border="0"
-  cellpadding="0"
-  cellspacing="0"
-  style="border: 0; border-collapse: collapse;"
->
-  <tr>
-  <td style="padding: 0 2px;">
-    <a href="https://www.linkedin.com/in/willian-froes" target="_blank">
-      <img
-        src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-        alt="LinkedIn"
-      >
-    </a>
-  </td>
-
-  <td style="padding: 0 2px;">
-    <a href="https://buscatextual.cnpq.br/" target="_blank">
-      <img
-        src="https://img.shields.io/badge/Lattes-0066CC?style=for-the-badge&logo=academia&logoColor=white"
-        alt="Currículo Lattes"
-      >
-    </a>
-  </td>
-
-  <td style="padding: 0 2px;">
-    <a href="mailto:willit.tecnologia@gmail.com">
-      <img
-        src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-        alt="Gmail"
-      >
-    </a>
-  </td>
-
-  <td style="padding: 0 2px;">
-    <a href="https://www.buymeacoffee.com/willianfroes" target="_blank">
-      <img
-        src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"
-        alt="Buy Me a Coffee"
-      >
-    </a>
-  </td>
-
-  <td style="padding: 0 2px;">
-    <a href="https://willianfroes.dev" target="_blank">
-      <img
-        src="https://img.shields.io/badge/Portfólio-10131A?style=for-the-badge&logo=google-chrome&logoColor=white"
-        alt="Portfólio"
-      >
-    </a>
-  </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://www.linkedin.com/in/willian-froes" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;
+  <a href="https://buscatextual.cnpq.br/" target="_blank"><img src="https://img.shields.io/badge/Lattes-0066CC?style=for-the-badge&logo=academia&logoColor=white" alt="Currículo Lattes"></a>&nbsp;
+  <a href="mailto:willit.tecnologia@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>&nbsp;
+  <a href="https://www.buymeacoffee.com/willianfroes" target="_blank"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>&nbsp;
+  <a href="https://willianfroes.dev" target="_blank"><img src="https://img.shields.io/badge/Portfólio-10131A?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfólio"></a>
+</div>
 
 <br />
