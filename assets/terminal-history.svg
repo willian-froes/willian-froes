@@ -1,0 +1,92 @@
+<svg
+  fill="none"
+  width="100%"
+  height="48"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <foreignObject width="100%" height="100%">
+    <div
+      xmlns="http://www.w3.org/1999/xhtml"
+      style="width: 100%; height: 100%;"
+    >
+      <style>
+        .wrapper {
+          box-sizing: border-box;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          padding: 0 16px;
+
+          border: 1px solid #242948;
+          border-radius: 6px;
+          background-color: #10131a;
+
+          font-family:
+            "JetBrains Mono",
+            "Fira Code",
+            "SFMono-Regular",
+            Consolas,
+            "Liberation Mono",
+            monospace;
+        }
+
+        .btn {
+          width: 14px;
+          height: 14px;
+          min-width: 14px;
+          border-radius: 50%;
+          border: none;
+          display: block;
+        }
+
+        .btn-close {
+          background-color: #ff2b46;
+        }
+
+        .btn-minimize {
+          background-color: #ffc300;
+        }
+
+        .btn-maximize {
+          background-color: #00dd48;
+        }
+
+        .text {
+          font-size: 14px;
+        }
+
+        .text-profile {
+          color: #7e8bad;
+        }
+
+        .text-command {
+          color: #00cdf5;
+        }
+
+        .text-param {
+          color: #7e8bad;
+        }
+      </style>
+
+      <div class="wrapper">
+        <div class="btn btn-close"></div>
+        <div class="btn btn-minimize"></div>
+        <div class="btn btn-maximize"></div>
+
+        <span class="text text-profile">
+          willian@github ~
+        </span>
+
+        <span class="text text-command">
+          ./histórico
+        </span>
+
+        <span class="text text-param">
+          --código
+        </span>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

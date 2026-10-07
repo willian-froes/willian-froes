@@ -1,8 +1,18 @@
-<img src="./willian-froes-terminal-profile-final-v9.gif" width="100%" />
+<!-- <img src="./willian-froes-terminal-profile-final-v9.gif" width="100%" /> -->
+
+<img
+  src="./templates/profile.svg"
+  width="100%"
+  alt="./tecnologias"
+/>
 
 <br />
 
-<img src="./willian-froes-terminal-technologies.png" width="100%" />
+<img
+  src="./assets/terminal-technologies.svg"
+  width="100%"
+  alt="./tecnologias"
+/>
 
 <br />
 
@@ -14,8 +24,11 @@
 
 <br />
 
-<img src="./willian-froes-terminal-history.png" width="100%" />
-
+<img
+  src="./assets/terminal-history.svg"
+  width="100%"
+  alt="./histórico"
+/>
 <table>
   <tr>
   <td width="60%" valign="top">
@@ -40,7 +53,11 @@
 
 <br />
 
-<img src="./willian-froes-terminal-contact.png" width="100%" />
+<img
+  src="./assets/terminal-contact.svg"
+  width="100%"
+  alt="./contato"
+/>
 
 <br />
 

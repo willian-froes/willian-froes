@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "generate:headers": "node ./scripts/generate-headers.js"
+  }
+}
