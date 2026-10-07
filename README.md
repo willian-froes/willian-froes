@@ -1,9 +1,7 @@
-<!-- <img src="./willian-froes-terminal-profile-final-v9.gif" width="100%" /> -->
-
 <img
   src="./templates/profile.svg"
   width="100%"
-  alt="./tecnologias"
+  alt="./profile"
 />
 
 <br />

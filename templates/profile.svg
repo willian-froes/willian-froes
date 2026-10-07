@@ -1,7 +1,7 @@
 <svg
   fill="none"
   width="100%"
-  height="48"
+  height="500px"
   xmlns="http://www.w3.org/2000/svg"
 >
   <foreignObject width="100%" height="100%">
@@ -15,14 +15,8 @@
           width: 100%;
           height: 100%;
           display: flex;
-          align-items: center;
-          gap: 10px;
-          padding: 0 16px;
-
-          border: 1px solid #242948;
-          border-radius: 6px;
-          background-color: #10131a;
-
+          flex-direction: column;
+        
           font-family:
             "JetBrains Mono",
             "Fira Code",
@@ -30,6 +24,27 @@
             Consolas,
             "Liberation Mono",
             monospace;
+        }
+
+        .header {
+          display: flex;
+          background-color: #10131a;
+          gap: 10px;
+          padding: 0 16px;
+          align-items: center;
+          height: 46px;
+          border: 1px solid #242948;
+          border-radius: 6px 6px 0px 0px;
+        }
+
+        .window {
+          display: flex;
+          flex-direction: column;
+          background-color: transparent;
+          border: 1px solid #242948;
+          border-radius: 0px 0px 6px 6px;
+          padding: 42px;
+          gap: 54px;
         }
 
         .btn {
@@ -62,30 +77,50 @@
         }
 
         .text-command {
-          color: #00cdf5;
+          font-weight: bold;
+          color: #00d5fe;
         }
 
-        .text-param {
-          color: #7e8bad;
+        .text-welcome {
+          font-size: 22px;
+          font-weight: 900;
+          color: #e5ebfa;
+        }
+
+        .text-employee {
+          font-size: 16px;
+          color: #8694b8;
+        }
+
+        .container {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .container-sm {
+          gap: 12px;
         }
       </style>
 
       <div class="wrapper">
-        <div class="btn btn-close"></div>
-        <div class="btn btn-minimize"></div>
-        <div class="btn btn-maximize"></div>
+        <div class="header">       
+          <div class="btn btn-close"></div>
+          <div class="btn btn-minimize"></div>
+          <div class="btn btn-maximize"></div>
 
-        <span class="text text-profile">
-          willian@github ~
-        </span>
+          <span class="text text-profile">
+            willian@github ~
+          </span>
+        </div>
 
-        <span class="text text-command">
-          
-        </span>
+        <div class="window">
+          <span class="text text-command">willian@github: ~$ ./perfil</span>
 
-        <span class="text text-param">
-          
-        </span>
+          <div class="container container-sm">
+            <span class="text text-welcome">Olá, me chamo Willian Froes! 👋</span>
+            <span class="text text-employee">Desenvolvedor de software • Designer UX/UI</span>
+          </div>
+        </div>
       </div>
     </div>
   </foreignObject>
