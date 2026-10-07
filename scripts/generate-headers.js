@@ -30,9 +30,9 @@ const headers = [
         param: "--código",
     },
     {
-        filename: "terminal-contact.svg",
+        filename: "terminal-links.svg",
         profile: "willian@github ~",
-        command: "./contato",
+        command: "./links",
         param: "",
     },
 ]
