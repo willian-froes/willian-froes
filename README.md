@@ -1,5 +1,3 @@
-<p>TESTE 4</p>
-
 <img
   src="./templates/profile.svg"
   width="100%"
