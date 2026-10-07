@@ -61,7 +61,13 @@
 
 <br />
 
-<table align="center" cellpadding="0" cellspacing="0">
+<table
+  align="center"
+  border="0"
+  cellpadding="0"
+  cellspacing="0"
+  style="border: 0; border-collapse: collapse;"
+>
   <tr>
   <td style="padding: 0 2px;">
     <a href="https://www.linkedin.com/in/willian-froes" target="_blank">
