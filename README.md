@@ -1,4 +1,4 @@
-<p>TESTE 1</p>
+<p>TESTE 2</p>
 
 <img
   src="./templates/profile.svg"
