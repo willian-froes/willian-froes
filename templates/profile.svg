@@ -100,6 +100,45 @@
         .container-sm {
           gap: 12px;
         }
+
+        .container-md {
+          gap: 30px;
+        }
+
+        .stack {
+          display: flex;
+          flex-direction: row;
+          gap: 46px;
+          font-size: 14px;
+        }
+
+        .stack-name {
+          font-weight: bold;
+        }
+
+        .stack-name--front {
+          color: #4506f6;
+        }
+
+        .stack-name--mobile {
+          color: #9500fa;
+        }
+
+        .stack-name--design {
+          color: #f2008b;
+        }
+
+        .stack-name--search {
+          color: #ff1d00;
+        }
+
+        .stack-name::before {
+          content: "$ ";
+        }
+
+        .stack-techs {
+          color: #e1e8f6;
+        }
       </style>
 
       <div class="wrapper">
@@ -118,7 +157,26 @@
 
           <div class="container container-sm">
             <span class="text text-welcome">Olá, me chamo Willian Froes! 👋</span>
-            <span class="text text-employee">Desenvolvedor de software • Designer UX/UI</span>
+            <span class="text text-employee">Desenvolvedor de Software • Designer UX/UI</span>
+          </div>
+
+          <div class="container container-md">
+            <div class="stack">
+              <span class="stack-name stack-name--front">front-end</span>
+              <span class="stack-techs">React • Next.js • JavaScript • TypeScript</span>
+            </div>
+            <div class="stack">
+              <span class="stack-name stack-name--mobile">mobile</span>
+              <span class="stack-techs">React Native • Flutter</span>
+            </div>
+            <div class="stack">
+              <span class="stack-name stack-name--design">design</span>
+              <span class="stack-techs">UX/UI • Design System • Storybook • Figma</span>
+            </div>
+            <div class="stack">
+              <span class="stack-name stack-name--search">pesquisa</span>
+              <span class="stack-techs">IA • Visão Computacional • Computação Gráfica</span>
+            </div>
           </div>
         </div>
       </div>
