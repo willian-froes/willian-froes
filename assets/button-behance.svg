@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xhtml="http://www.w3.org/1999/xhtml"
-     width="150"
+     width="111"
      height="40"
-     viewBox="0 0 150 40"
+     viewBox="0 0 111 40"
      role="img"
      aria-label="Behance">
-  <foreignObject x="0" y="0" width="150" height="40">
+  <foreignObject x="0" y="0" width="111" height="40">
     <xhtml:div xmlns="http://www.w3.org/1999/xhtml"
                style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
       <xhtml:div style="
@@ -16,12 +16,13 @@
         align-items:center;
         justify-content:center;
         gap:8px;
+        padding:0 16px;
         border:1px solid #D9D9D9;
         border-radius:10px;
         background:#F1F1F1;
         color:#10131A;
         font-family:Arial,Helvetica,sans-serif;
-        font-size:14px;
+        font-size:13px;
         font-weight:700;
         letter-spacing:.2px;
         white-space:nowrap;

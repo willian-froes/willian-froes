@@ -23,7 +23,6 @@ const buttons = [
     foreground: "#FFFFFF",
     border: "#0A66C2",
     radius: 10,
-    width: 150,
     iconSvg: icons.linkedin,
   },
   {
@@ -33,7 +32,6 @@ const buttons = [
     foreground: "#FFFFFF",
     border: "#242948",
     radius: 10,
-    width: 150,
     iconSvg: icons.portfolio,
   },
   {
@@ -43,7 +41,6 @@ const buttons = [
     foreground: "#FFFFFF",
     border: "#0066CC",
     radius: 10,
-    width: 165,
     iconSvg: icons.lattes,
   },
   {
@@ -53,7 +50,6 @@ const buttons = [
     foreground: "#FFFFFF",
     border: "#EA4335",
     radius: 10,
-    width: 135,
     iconSvg: icons.gmail,
   },
   {
@@ -63,7 +59,6 @@ const buttons = [
     foreground: "#10131A",
     border: "#D9D9D9",
     radius: 10,
-    width: 150,
     iconSvg: icons.behance,
   },
   {
@@ -73,7 +68,6 @@ const buttons = [
     foreground: "#10131A",
     border: "#E8C900",
     radius: 10,
-    width: 205,
     iconSvg: icons.coffee,
   },
 ];
@@ -87,17 +81,44 @@ function escapeXml(value) {
     .replaceAll("'", "&apos;");
 }
 
+function estimateTextWidth(text, fontSize = 13) {
+  // Aproximação para Arial/Helvetica em negrito. Evita largura fixa por botão.
+  const narrow = new Set(" ilI.,:;'!|");
+  const wide = new Set("MW@%&");
+  let units = 0;
+
+  for (const character of text) {
+    if (narrow.has(character)) units += 0.32;
+    else if (wide.has(character)) units += 0.88;
+    else if (/[A-Z0-9]/.test(character)) units += 0.66;
+    else if (character === " ") units += 0.34;
+    else units += 0.56;
+  }
+
+  return Math.ceil(units * fontSize);
+}
+
 function renderButton(template, button) {
+  const fontSize = button.fontSize ?? 13;
+  const horizontalPadding = button.horizontalPadding ?? 16;
+  const iconWidth = button.iconSvg ? (button.iconWidth ?? 16) : 0;
+  const iconGap = button.iconSvg ? (button.iconGap ?? 8) : 0;
+  const contentWidth = estimateTextWidth(button.label, fontSize) + iconWidth + iconGap;
+  const width = button.width ?? Math.ceil(contentWidth + horizontalPadding * 2 + 2);
+
   const values = {
-    "{{WIDTH}}": button.width ?? 160,
+    "{{WIDTH}}": width,
     "{{HEIGHT}}": button.height ?? 40,
     "{{LABEL}}": escapeXml(button.label),
     "{{BACKGROUND}}": button.background ?? "#10131A",
     "{{FOREGROUND}}": button.foreground ?? "#FFFFFF",
     "{{BORDER}}": button.border ?? button.background ?? "#10131A",
     "{{RADIUS}}": button.radius ?? 10,
+    "{{ICON_GAP}}": button.iconSvg ? (button.iconGap ?? 8) : 0,
+    "{{HORIZONTAL_PADDING}}": button.horizontalPadding ?? 16,
+    "{{FONT_SIZE}}": fontSize,
     // Conteúdo SVG confiável definido localmente acima: não escapar as tags.
-    "{{ICON_SVG}}": button.iconSvg ?? "",
+    "{{ICON_SVG}}": button.iconSvg ? button.iconSvg.replaceAll('width="16"', `width="${iconWidth}"`).replaceAll('height="16"', `height="${button.iconHeight ?? 16}"`) : "",
   };
 
   return Object.entries(values).reduce(

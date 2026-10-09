@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "generate:headers": "node ./scripts/generate-headers.js",
+    "generate:headers": "node scripts/generate-headers.js",
     "generate:buttons": "node scripts/generate-buttons.js"
   }
 }
