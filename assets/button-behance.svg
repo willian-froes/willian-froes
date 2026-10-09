@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml"
+     width="150"
+     height="40"
+     viewBox="0 0 150 40"
+     role="img"
+     aria-label="Behance">
+  <foreignObject x="0" y="0" width="150" height="40">
+    <xhtml:div xmlns="http://www.w3.org/1999/xhtml"
+               style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+      <xhtml:div style="
+        box-sizing:border-box;
+        width:100%;
+        height:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:8px;
+        border:1px solid #D9D9D9;
+        border-radius:10px;
+        background:#F1F1F1;
+        color:#10131A;
+        font-family:Arial,Helvetica,sans-serif;
+        font-size:14px;
+        font-weight:700;
+        letter-spacing:.2px;
+        white-space:nowrap;
+        overflow:hidden;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.7 11.1c1.4-.7 2.1-1.7 2.1-3.1 0-2.6-1.9-3.8-4.7-3.8H1v15.6h6.3c3.2 0 5.5-1.4 5.5-4.4 0-2-1.1-3.6-3.1-4.3ZM4.2 6.8h2.6c1.3 0 2 .5 2 1.6 0 1.1-.7 1.7-2 1.7H4.2V6.8Zm2.9 10.4H4.2v-4.4h2.9c1.7 0 2.5.7 2.5 2.2 0 1.4-.9 2.2-2.5 2.2ZM17.9 8.1c-3.4 0-5.6 2.4-5.6 5.9 0 3.6 2.2 5.9 5.9 5.9 2.7 0 4.5-1.3 5.1-3.5h-3.1c-.3.8-1 1.2-2 1.2-1.5 0-2.4-.9-2.6-2.5h7.9v-.9c0-3.8-2.1-6.1-5.6-6.1Zm-2.3 4.7c.2-1.3 1-2 2.3-2 1.3 0 2 .7 2.2 2h-4.5ZM15 4h6v2h-6V4Z"/></svg>
+        <xhtml:span>Behance</xhtml:span>
+      </xhtml:div>
+    </xhtml:div>
+  </foreignObject>
+</svg>

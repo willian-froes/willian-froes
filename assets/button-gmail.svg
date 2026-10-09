@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml"
+     width="135"
+     height="40"
+     viewBox="0 0 135 40"
+     role="img"
+     aria-label="Gmail">
+  <foreignObject x="0" y="0" width="135" height="40">
+    <xhtml:div xmlns="http://www.w3.org/1999/xhtml"
+               style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;">
+      <xhtml:div style="
+        box-sizing:border-box;
+        width:100%;
+        height:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:8px;
+        border:1px solid #EA4335;
+        border-radius:10px;
+        background:#EA4335;
+        color:#FFFFFF;
+        font-family:Arial,Helvetica,sans-serif;
+        font-size:14px;
+        font-weight:700;
+        letter-spacing:.2px;
+        white-space:nowrap;
+        overflow:hidden;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 18.5V6.8c0-1.5 1.7-2.3 2.9-1.4L12 10l6.1-4.6c1.2-.9 2.9-.1 2.9 1.4v11.7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 7l9 6.5L21 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <xhtml:span>Gmail</xhtml:span>
+      </xhtml:div>
+    </xhtml:div>
+  </foreignObject>
+</svg>
