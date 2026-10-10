@@ -89,9 +89,10 @@
         .text-command {
           font-weight: bold;
           color: #00d5fe;
-          height: 40px;
+          height: 20px;
           line-height: 20px;
           flex-shrink: 0;
+          border: 1px solid red;
         }
 
         .text-welcome {
@@ -102,6 +103,7 @@
           line-height: 40px;
           font-weight: 900;
           color: #e5ebfa;
+          border: 1px solid red;
         }
 
         .text-employee {
@@ -124,7 +126,7 @@
         }
 
         .container-md {
-          gap: 30px;
+          gap: 12px;
         }
 
         .stack {
