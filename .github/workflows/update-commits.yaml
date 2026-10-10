@@ -1,0 +1,96 @@
+
+name: Update GitHub Commits
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-commits:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate commits with GraphQL
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+
+            const username = "willian-froes";
+
+            const query = `
+              query($login: String!, $from: DateTime!, $to: DateTime!) {
+                user(login: $login) {
+                  contributionsCollection(from: $from, to: $to) {
+                    totalCommitContributions
+                  }
+                }
+              }
+            `;
+
+            const now = new Date();
+            const profile = await github.graphql(
+              `query($login: String!) {
+                user(login: $login) {
+                  createdAt
+                }
+              }`,
+              { login: username }
+            );
+
+            let start = new Date(profile.user.createdAt);
+            let total = 0;
+
+            while (start < now) {
+              const end = new Date(start);
+              end.setUTCFullYear(end.getUTCFullYear() + 1);
+
+              const to = end < now ? end : now;
+
+              const result = await github.graphql(query, {
+                login: username,
+                from: start.toISOString(),
+                to: to.toISOString()
+              });
+
+              total += result.user.contributionsCollection
+                .totalCommitContributions;
+
+              start = new Date(to.getTime() + 1000);
+            }
+
+            const readmePath = "README.md";
+            let readme = fs.readFileSync(readmePath, "utf8");
+
+            const marker = /COMMITS_COUNT=\d+/;
+
+            if (!marker.test(readme)) {
+              throw new Error(
+                "Marcador COMMITS_COUNT=0 não encontrado no README.md"
+              );
+            }
+
+            readme = readme.replace(
+              marker,
+              `COMMITS_COUNT=${total}`
+            );
+
+            fs.writeFileSync(readmePath, readme);
+
+            core.info(`Total de contribuições em commits: ${total}`);
+
+      - name: Commit updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update commit contributions"
+          git push

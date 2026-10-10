@@ -1,10 +1,10 @@
-<!-- <img
+<img
   src="./templates/profile.svg"
   width="100%"
   alt="./profile"
 />
 
-<br /> -->
+<br />
 
 <img
   src="./assets/terminal-technologies.svg"
@@ -47,12 +47,18 @@
 
 <br />
 
-<!-- <img
+<img
   src="./assets/terminal-history.svg"
   width="100%"
   alt="./histórico"
+  style="user-select: none;"
 />
-<table>
+
+<br />
+
+<!-- TODO: Implements customized github stats -->
+
+<!-- <table>
   <tr>
   <td width="60%" valign="top">
     <p align="center">
