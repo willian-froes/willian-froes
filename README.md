@@ -1,4 +1,14 @@
 <img
+  src="./templates/profile.svg"
+  width="100%"
+  height="300px"
+  alt="./profile"
+  style="border: 2px solid red"
+/>
+
+<br/>
+
+<img
   src="./assets/terminal-links.svg"
   width="100%"
   alt="./links"

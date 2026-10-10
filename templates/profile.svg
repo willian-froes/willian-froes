@@ -1,7 +1,7 @@
 <svg
   fill="none"
   width="100%"
-  height="900px"
+  height="100%"
   xmlns="http://www.w3.org/2000/svg"
 >
   <foreignObject width="100%" height="100%">
@@ -43,8 +43,8 @@
           background-color: transparent;
           border: 1px solid #242948;
           border-radius: 0px 0px 6px 6px;
-          padding: 42px;
-          gap: 54px;
+          padding: 24px;
+          gap: 32px;
         }
 
         .btn {
@@ -160,7 +160,7 @@
             <span class="text text-employee">Desenvolvedor de Software • Designer UX/UI</span>
           </div>
 
-          <div class="container container-md">
+          <!-- <div class="container container-md">
             <div class="stack">
               <span class="stack-name stack-name--front">front-end</span>
               <span class="stack-techs">React • Next.js • JavaScript • TypeScript</span>
@@ -177,12 +177,12 @@
               <span class="stack-name stack-name--search">pesquisa</span>
               <span class="stack-techs">IA • Visão Computacional • Computação Gráfica</span>
             </div>
-          </div>
-
+          </div> -->
+          <!-- 
           <span class="text text-command">willian@github: ~$</span>
           <span class="text text-commits">
             📊 Commits realizados: <strong>COMMITS_COUNT=138</strong>
-          </span>
+          </span> -->
         </div>
       </div>
     </div>
