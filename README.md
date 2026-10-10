@@ -1,3 +1,23 @@
+
+<picture>
+  <source
+    media="(max-width: 768px)"
+    srcset="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/mobile-screen.svg"
+  />
+
+  <source
+    media="(min-width: 769px)"
+    srcset="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/desktop.svg"
+  />
+
+  <img
+    src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/desktop.svg"
+    alt="Ícone responsivo"
+    width="100%"
+  />
+</picture>
+
+
 <img
   src="./templates/profile.svg"
   width="100%"
