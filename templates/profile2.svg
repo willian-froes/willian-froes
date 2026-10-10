@@ -1,13 +1,13 @@
 <svg
   fill="none"
   width="100%"
-  height="100%"
+  height="280px"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <foreignObject width="100%" height="100%">
+  <foreignObject width="100%" height="280px">
     <div
       xmlns="http://www.w3.org/1999/xhtml"
-      style="width: 100%; height: 100%;"
+      style="width: 100%; height: 280px;"
     >
       <style>
         .wrapper {
@@ -79,6 +79,7 @@
         .text-command {
           font-weight: bold;
           color: #00d5fe;
+          border: 2px solid purple;
         }
 
         .text-welcome {
