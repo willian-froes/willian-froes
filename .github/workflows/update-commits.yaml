@@ -36,6 +36,7 @@ jobs:
             `;
 
             const now = new Date();
+
             const profile = await github.graphql(
               `query($login: String!) {
                 user(login: $login) {
@@ -66,31 +67,28 @@ jobs:
               start = new Date(to.getTime() + 1000);
             }
 
-            const readmePath = "README.md";
-            let readme = fs.readFileSync(readmePath, "utf8");
+            const svgPath = "templates/profile.svg";
+            let svg = fs.readFileSync(svgPath, "utf8");
 
             const marker = /COMMITS_COUNT=\d+/;
 
-            if (!marker.test(readme)) {
+            if (!marker.test(svg)) {
               throw new Error(
-                "Marcador COMMITS_COUNT=0 não encontrado no README.md"
+                "Marcador COMMITS_COUNT=0 não encontrado em templates/profile.svg"
               );
             }
 
-            readme = readme.replace(
-              marker,
-              `COMMITS_COUNT=${total}`
-            );
+            svg = svg.replace(marker, `COMMITS_COUNT=${total}`);
 
-            fs.writeFileSync(readmePath, readme);
+            fs.writeFileSync(svgPath, svg);
 
             core.info(`Total de contribuições em commits: ${total}`);
 
-      - name: Commit updated README
+      - name: Commit updated SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add templates/profile.svg
           git diff --cached --quiet && exit 0
-          git commit -m "chore: update commit contributions"
+          git commit -m "chore: update profile commit count"
           git push
