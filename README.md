@@ -1,5 +1,5 @@
 <img
-  src="./templates/profile-fixed3.svg"
+  src="./templates/profile.svg"
   width="100%"
   alt="./profile"
 />
