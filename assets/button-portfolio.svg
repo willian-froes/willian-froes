@@ -19,15 +19,28 @@
         padding:0 16px;
         border:1px solid #242948;
         border-radius:10px;
-        background:#10131A;
-        color:#FFFFFF;
+        background:#020617;
+        color:#f8fafc;
         font-family:Arial,Helvetica,sans-serif;
         font-size:13px;
         font-weight:700;
         letter-spacing:.2px;
         white-space:nowrap;
         overflow:hidden;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9.5" stroke="currentColor" stroke-width="2"/><path d="M2.8 9h18.4M2.8 15h18.4M12 2.5c2.5 2.6 3.7 5.8 3.7 9.5s-1.2 6.9-3.7 9.5C9.5 18.9 8.3 15.7 8.3 12S9.5 5.1 12 2.5Z" stroke="currentColor" stroke-width="1.5"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    aria-hidden="true">
+    <image
+      href="data:image/webp;base64,UklGRuYDAABXRUJQVlA4TNoDAAAvboAbEJ/luG0bQQqu5mv9fjMmdp3rgVHbRoLKH+q9DsBO7KBtJEmq5Y9kId7TsYFIMjaS5kShgQgaIJu0oXPBvPH7P58CwAAYKTBIpACkgMFApwBTxINajJQUBmZASglMfwYwKYOUlMQrWJbSBgDnDrxb1AUSkHLvAPPQNmZw3l8kUV8NSjGrLAUSERgApCx7BBJtLinyX3DvQMq9k3LeATDg3g27Gfddn6tm//30xPd7E7Jt2zbt6MS2yhXbSdm2bdu2bdu21xcmd8+52lrv1SL678Bt2zCiP5ANq9ve/UD+n5nPy0lMvSQDr7LyKyJ5aGkDGbhUrFJAHLQ0iRhjZiCx1FI9scHMYmK4pVTikpmjRH9D3yPim5nXRJKhm0SG2CWRzPvezk6izVAVcd7ObGKu20LabKeTOGBoCzHFTgnx1NB1otFOhMWJoV9EjpmnmnXrVJ9/fGpijKkBxF0rK4j1phYT+6yMYNVp6gixyEoZ8dXUG2IoWS0497FkLFtsk4j1ge5EOCnQB1adxiqxeGhzRPIMOU/MMTaRzPwWfofMLv0L2G9sM3EGFiQzGZlCPDF2Tb12f0RMKdKgqE6/+pwEnKXikGxWndbJx+qApVR0M/Qnwkab68RSgTZuY+g2sc7cIjL1j1A6Nzy0m7ho7jBxC7QcVxSaR3wx90q5rPcpRN8DgxSnP8/6nBeYrnE20ANrdVCJDQqH0VimO7HMcTAB6xmI02iP9UKzM3vWZzxfZLVAeqwTrDodXCVzv6KPvrICjPAuxkpFdfrW50m6DV2dQe+do1h1eiQPWxWjCL22Y8AMzcc7ykUnNo5tQ1XyGaiJkUSq08VCrLrbGWAm3HATun2MsAsuDik2hyXAcZGxYIgHXS4Rn128VJRvK/BTZAewrctWRXV61+f1LimhElLm47tMw1qcVGDb8YONFRHJxOfRJmy2k/HYTJE9wI5ug8EYf0VysL1ONmMdIlOBl93WAVfoieWxkytYsUh5KI0W92q5q6hO//qE29BAehcZInuxfuKVXHLFvxGF1tADbTaropFuOrBj69Ehk18+Pw3G1rpZiK0cxm9G54FTvZS///ieAkcVgC098BuYrz39+Z4Ci6LQAsU1uRDLEr8kRrqcDk1XjtXiqFzpJ9irlGY5Gq/TW0IflfY62qQzSUAKdR45uqyzBxmpEiex/pkF/7Wg8w7ZptLXk+RoZAryTGWEq3aNoQKTprHG1XyNTeR3YY1zrg5q3MNWaXxy9VwhWbAbChniShK5RiGJ55qdlXFLmVpuprNx3HlmvqJ8nG3kfjNnuIcO/mMUAQ=="
+      x="0"
+      y="0"
+      width="24"
+      height="24"
+      preserveAspectRatio="xMidYMid meet"
+    />
+  </svg>
         <xhtml:span>Portfólio</xhtml:span>
       </xhtml:div>
     </xhtml:div>

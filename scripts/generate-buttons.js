@@ -5,11 +5,93 @@ const rootDir = path.join(__dirname, "..");
 const templatePath = path.join(rootDir, "templates", "button.svg");
 const outputDir = path.join(rootDir, "assets");
 
-// Ícones SVG inline: não dependem de CDN, fontes ou imagens externas.
+const portfolioIconPath = path.join(outputDir, "portfolio-icon.webp");
+const portfolioIconBase64 = fs.readFileSync(portfolioIconPath).toString("base64");
+
 const icons = {
   linkedin: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>`,
-  portfolio: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9.5" stroke="currentColor" stroke-width="2"/><path d="M2.8 9h18.4M2.8 15h18.4M12 2.5c2.5 2.6 3.7 5.8 3.7 9.5s-1.2 6.9-3.7 9.5C9.5 18.9 8.3 15.7 8.3 12S9.5 5.1 12 2.5Z" stroke="currentColor" stroke-width="1.5"/></svg>`,
-  lattes: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 5.5A2.5 2.5 0 0 1 5.5 3H11v17H5.5A2.5 2.5 0 0 0 3 22V5.5ZM21 5.5A2.5 2.5 0 0 0 18.5 3H13v17h5.5A2.5 2.5 0 0 1 21 22V5.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>`,
+  portfolio: `<svg xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    aria-hidden="true">
+    <image
+      href="data:image/webp;base64,${portfolioIconBase64}"
+      x="0"
+      y="0"
+      width="24"
+      height="24"
+      preserveAspectRatio="xMidYMid meet"
+    />
+  </svg>`,
+  lattes: `<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 100 100"
+    fill="none"
+    aria-hidden="true"
+  >
+    <defs>
+      <linearGradient
+        id="lattes-gradient"
+        x1="15"
+        y1="15"
+        x2="78"
+        y2="88"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stop-color="#454572" />
+        <stop offset="0.45" stop-color="#7778AC" />
+        <stop offset="0.75" stop-color="#32336D" />
+        <stop offset="1" stop-color="#17174A" />
+      </linearGradient>
+    </defs>
+    <path
+      fill="url(#lattes-gradient)"
+      d="
+        M67 12
+        C51 3 30 4 17 17
+        C3 31 3 52 11 71
+        L23 96
+        C43 95 67 86 80 70
+        C94 53 91 34 77 23
+        C84 38 82 53 73 64
+        C63 76 48 83 31 86
+        L20 63
+        C14 48 15 32 25 23
+        C35 14 51 12 67 16
+        Z
+      "
+    />
+    <path
+      fill="url(#lattes-gradient)"
+      fill-rule="evenodd"
+      d="
+        M57 20
+        A19 19 0 1 1 57 58
+        A19 19 0 1 1 57 20
+        Z
+
+        M57 27
+        A12 12 0 1 0 57 51
+        A12 12 0 1 0 57 27
+        Z
+      "
+    />
+    <path
+      fill="url(#lattes-gradient)"
+      d="
+        M39 49
+        C44 57 52 61 61 60
+        L67 73
+        C57 80 45 84 33 85
+        L25 65
+        L43 61
+        Z
+      "
+    />
+  </svg>`,
   gmail: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 18.5V6.8c0-1.5 1.7-2.3 2.9-1.4L12 10l6.1-4.6c1.2-.9 2.9-.1 2.9 1.4v11.7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 7l9 6.5L21 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
   behance: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.7 11.1c1.4-.7 2.1-1.7 2.1-3.1 0-2.6-1.9-3.8-4.7-3.8H1v15.6h6.3c3.2 0 5.5-1.4 5.5-4.4 0-2-1.1-3.6-3.1-4.3ZM4.2 6.8h2.6c1.3 0 2 .5 2 1.6 0 1.1-.7 1.7-2 1.7H4.2V6.8Zm2.9 10.4H4.2v-4.4h2.9c1.7 0 2.5.7 2.5 2.2 0 1.4-.9 2.2-2.5 2.2ZM17.9 8.1c-3.4 0-5.6 2.4-5.6 5.9 0 3.6 2.2 5.9 5.9 5.9 2.7 0 4.5-1.3 5.1-3.5h-3.1c-.3.8-1 1.2-2 1.2-1.5 0-2.4-.9-2.6-2.5h7.9v-.9c0-3.8-2.1-6.1-5.6-6.1Zm-2.3 4.7c.2-1.3 1-2 2.3-2 1.3 0 2 .7 2.2 2h-4.5ZM15 4h6v2h-6V4Z"/></svg>`,
   coffee: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 7h14v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V7Zm14 2h2a3 3 0 1 1 0 6h-2v-2h2a1 1 0 1 0 0-2h-2V9ZM5 3h2v3H5V3Zm4 0h2v3H9V3Zm4 0h2v3h-2V3Z"/></svg>`,
@@ -28,8 +110,8 @@ const buttons = [
   {
     file: "button-portfolio.svg",
     label: "Portfólio",
-    background: "#10131A",
-    foreground: "#FFFFFF",
+    background: "#020617",
+    foreground: "#f8fafc",
     border: "#242948",
     radius: 10,
     iconSvg: icons.portfolio,
@@ -37,9 +119,9 @@ const buttons = [
   {
     file: "button-lattes.svg",
     label: "Lattes CNPq",
-    background: "#0066CC",
-    foreground: "#FFFFFF",
-    border: "#0066CC",
+    background: "#f4f4f4",
+    foreground: "#006fba",
+    border: "#e3e3e3",
     radius: 10,
     iconSvg: icons.lattes,
   },
@@ -82,7 +164,6 @@ function escapeXml(value) {
 }
 
 function estimateTextWidth(text, fontSize = 13) {
-  // Aproximação para Arial/Helvetica em negrito. Evita largura fixa por botão.
   const narrow = new Set(" ilI.,:;'!|");
   const wide = new Set("MW@%&");
   let units = 0;
@@ -117,7 +198,6 @@ function renderButton(template, button) {
     "{{ICON_GAP}}": button.iconSvg ? (button.iconGap ?? 8) : 0,
     "{{HORIZONTAL_PADDING}}": button.horizontalPadding ?? 16,
     "{{FONT_SIZE}}": fontSize,
-    // Conteúdo SVG confiável definido localmente acima: não escapar as tags.
     "{{ICON_SVG}}": button.iconSvg ? button.iconSvg.replaceAll('width="16"', `width="${iconWidth}"`).replaceAll('height="16"', `height="${button.iconHeight ?? 16}"`) : "",
   };
 

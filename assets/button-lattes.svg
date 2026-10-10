@@ -17,17 +17,84 @@
         justify-content:center;
         gap:8px;
         padding:0 16px;
-        border:1px solid #0066CC;
+        border:1px solid #e3e3e3;
         border-radius:10px;
-        background:#0066CC;
-        color:#FFFFFF;
+        background:#f4f4f4;
+        color:#006fba;
         font-family:Arial,Helvetica,sans-serif;
         font-size:13px;
         font-weight:700;
         letter-spacing:.2px;
         white-space:nowrap;
         overflow:hidden;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 5.5A2.5 2.5 0 0 1 5.5 3H11v17H5.5A2.5 2.5 0 0 0 3 22V5.5ZM21 5.5A2.5 2.5 0 0 0 18.5 3H13v17h5.5A2.5 2.5 0 0 1 21 22V5.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 100 100"
+    fill="none"
+    aria-hidden="true"
+  >
+    <defs>
+      <linearGradient
+        id="lattes-gradient"
+        x1="15"
+        y1="15"
+        x2="78"
+        y2="88"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stop-color="#454572" />
+        <stop offset="0.45" stop-color="#7778AC" />
+        <stop offset="0.75" stop-color="#32336D" />
+        <stop offset="1" stop-color="#17174A" />
+      </linearGradient>
+    </defs>
+    <path
+      fill="url(#lattes-gradient)"
+      d="
+        M67 12
+        C51 3 30 4 17 17
+        C3 31 3 52 11 71
+        L23 96
+        C43 95 67 86 80 70
+        C94 53 91 34 77 23
+        C84 38 82 53 73 64
+        C63 76 48 83 31 86
+        L20 63
+        C14 48 15 32 25 23
+        C35 14 51 12 67 16
+        Z
+      "
+    />
+    <path
+      fill="url(#lattes-gradient)"
+      fill-rule="evenodd"
+      d="
+        M57 20
+        A19 19 0 1 1 57 58
+        A19 19 0 1 1 57 20
+        Z
+
+        M57 27
+        A12 12 0 1 0 57 51
+        A12 12 0 1 0 57 27
+        Z
+      "
+    />
+    <path
+      fill="url(#lattes-gradient)"
+      d="
+        M39 49
+        C44 57 52 61 61 60
+        L67 73
+        C57 80 45 84 33 85
+        L25 65
+        L43 61
+        Z
+      "
+    />
+  </svg>
         <xhtml:span>Lattes CNPq</xhtml:span>
       </xhtml:div>
     </xhtml:div>
