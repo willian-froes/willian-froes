@@ -1,15 +1,13 @@
-
-
 <svg
   fill="none"
   width="100%"
-  height="900px"
+  height="806px"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <foreignObject width="100%" height="900px">
+  <foreignObject width="100%" height="806px">
     <div
       xmlns="http://www.w3.org/1999/xhtml"
-      style="width:100%;height:900px;"
+      style="width:100%;height:806px;"
     >
       <style>
         .wrapper,
@@ -46,12 +44,12 @@
         .window {
           display: flex;
           flex-direction: column;
-          height: 854px;
+          height: 760px;
           background-color: transparent;
           border: 1px solid #242948;
           border-radius: 0 0 6px 6px;
           padding: 24px;
-          gap: 32px;
+          gap: 16px;
           flex-shrink: 0;
         }
 
@@ -92,7 +90,6 @@
           height: 20px;
           line-height: 20px;
           flex-shrink: 0;
-          border: 1px solid red;
         }
 
         .text-welcome {
@@ -103,7 +100,6 @@
           line-height: 40px;
           font-weight: 900;
           color: #e5ebfa;
-          border: 1px solid red;
         }
 
         .text-employee {
@@ -119,18 +115,10 @@
           display: flex;
           flex-direction: column;
           flex-shrink: 0;
-        }
-
-        .container-sm {
-          gap: 12px;
-        }
-
-        .container-md {
           gap: 12px;
         }
 
         .stack {
-          border: 1px solid green;
           display: grid;
           grid-template-columns: 180px minmax(0, 1fr);
           column-gap: 34px;
@@ -260,7 +248,7 @@
                 além do código
               </span>
               <span class="stack-techs">
-                Guitarra • Desenho • Moto • Videogames
+                Amigos • Moto • Arte • Guitarra • Videogames
               </span>
             </div>
           </div>
