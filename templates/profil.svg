@@ -230,7 +230,7 @@
                 pull requests
               </span>
               <span class="stack-techs">
-                <strong class="metric">x</strong> mergeados
+                <strong class="metric">{{MERGED_PRS}}</strong> mergeados
               </span>
             </div>
 
@@ -239,7 +239,7 @@
                 code reviews
               </span>
               <span class="stack-techs">
-                <strong class="metric">x</strong> aceitos / x rejeitados
+                <strong class="metric">{{APPROVED_REVIEWS}}</strong> aceitos / {{CHANGES_REQUESTED_REVIEWS}} rejeitados
               </span>
             </div>
 

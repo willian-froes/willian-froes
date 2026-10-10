@@ -1,0 +1,38 @@
+name: Atualizar profile
+on:
+  push:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [profile-update]
+  schedule:
+    - cron: '17 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Consultar GraphQL e gerar SVG
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || github.token }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: node scripts/update-profile.cjs
+      - name: Salvar SVG atualizado
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/profile.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore: atualizar métricas do profile'
+          git push
