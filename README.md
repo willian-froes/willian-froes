@@ -15,8 +15,10 @@
 
 <br />
 
-<p style="color: white;"></p>
+<p style="color: white;">
   🚧 Histórico em construção — em breve!
+</p>
+
 <br />
 
 <img
