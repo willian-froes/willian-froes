@@ -180,7 +180,7 @@ function estimateTextWidth(text, fontSize = 13) {
 }
 
 function renderButton(template, button) {
-  const fontSize = button.fontSize ?? 13;
+  const fontSize = button.fontSize ?? 14;
   const horizontalPadding = button.horizontalPadding ?? 16;
   const iconWidth = button.iconSvg ? (button.iconWidth ?? 16) : 0;
   const iconGap = button.iconSvg ? (button.iconGap ?? 8) : 0;
