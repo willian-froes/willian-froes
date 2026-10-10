@@ -1,13 +1,3 @@
-<!-- 
-<img
-  src="./templates/profile.svg"
-  width="100%"
-  alt="./profile"
-/>
-
-<br />
-
-
 <!--
 
 <img
@@ -18,7 +8,6 @@
 />
 
 <br />
-
 
 <p align="center">
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=html" width="40" height="40" alt="HTML" /></a>

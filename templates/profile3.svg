@@ -1,13 +1,15 @@
+
+
 <svg
   fill="none"
   width="100%"
-  height="292px"
+  height="900px"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <foreignObject width="100%" height="292px">
+  <foreignObject width="100%" height="900px">
     <div
       xmlns="http://www.w3.org/1999/xhtml"
-      style="width: 100%; height: 292px;"
+      style="width:100%;height:900px;"
     >
       <style>
         .wrapper,
@@ -16,12 +18,10 @@
         }
 
         .wrapper {
-          box-sizing: border-box;
           width: 100%;
           height: 100%;
           display: flex;
           flex-direction: column;
-        
           font-family:
             "JetBrains Mono",
             "Fira Code",
@@ -39,16 +39,17 @@
           align-items: center;
           height: 46px;
           border: 1px solid #242948;
-          border-radius: 6px 6px 0px 0px;
+          border-radius: 6px 6px 0 0;
           flex-shrink: 0;
         }
 
         .window {
           display: flex;
           flex-direction: column;
+          height: 854px;
           background-color: transparent;
           border: 1px solid #242948;
-          border-radius: 0px 0px 6px 6px;
+          border-radius: 0 0 6px 6px;
           padding: 24px;
           gap: 32px;
           flex-shrink: 0;
@@ -58,6 +59,7 @@
           width: 14px;
           height: 14px;
           min-width: 14px;
+          flex-shrink: 0;
           border-radius: 50%;
           border: none;
           display: block;
@@ -81,18 +83,18 @@
 
         .text-profile {
           color: #7e8bad;
+          white-space: nowrap;
         }
 
         .text-command {
           font-weight: bold;
           color: #00d5fe;
-          border: 2px solid purple;
+          height: 40px;
           line-height: 20px;
           flex-shrink: 0;
         }
 
         .text-welcome {
-          border: 2px solid blue;
           display: block;
           flex-shrink: 0;
           height: 80px;
@@ -103,7 +105,6 @@
         }
 
         .text-employee {
-          border: 2px solid green;
           display: block;
           flex-shrink: 0;
           height: 48px;
@@ -115,6 +116,7 @@
         .container {
           display: flex;
           flex-direction: column;
+          flex-shrink: 0;
         }
 
         .container-sm {
@@ -126,10 +128,15 @@
         }
 
         .stack {
+          border: 1px solid green;
           display: grid;
-          grid-template-columns: 120px 1fr;
+          grid-template-columns: 180px minmax(0, 1fr);
           column-gap: 34px;
+          align-content: start;
+          height: 50px;
+          flex-shrink: 0;
           font-size: 14px;
+          line-height: 24px;
         }
 
         .stack-name {
@@ -140,16 +147,20 @@
           color: #4506f6;
         }
 
-        .stack-name--mobile {
+        .stack-name--search {
+          color: #ff1d00;
+        }
+
+        .stack-name--pulls {
           color: #9500fa;
         }
 
-        .stack-name--design {
+        .stack-name--reviews {
           color: #f2008b;
         }
 
-        .stack-name--search {
-          color: #ff1d00;
+        .stack-name--hobbies {
+          color: #00d5fe;
         }
 
         .stack-name::before {
@@ -157,12 +168,30 @@
         }
 
         .stack-techs {
+          min-width: 0;
           color: #e1e8f6;
+          overflow-wrap: anywhere;
+        }
+
+        .metric {
+          color: #00dd48;
+          font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+          .window {
+            padding: 24px 16px;
+          }
+
+          .stack {
+            grid-template-columns: minmax(0, 1fr);
+            height: 74px; /* Título + 2 linhas de conteúdo + bordas */
+          }
         }
       </style>
 
       <div class="wrapper">
-        <div class="header">       
+        <div class="header">
           <div class="btn btn-close"></div>
           <div class="btn btn-minimize"></div>
           <div class="btn btn-maximize"></div>
@@ -173,11 +202,65 @@
         </div>
 
         <div class="window">
-          <span class="text text-command">willian@github: ~$ ./perfil</span>
+          <span class="text text-command">
+            willian@github: ~$ ./perfil
+          </span>
 
           <div class="container container-sm">
-            <span class="text text-welcome">Olá, me chamo Willian Froes! 👋</span>
-            <span class="text text-employee">Desenvolvedor de Software • Designer UX/UI</span>
+            <span class="text text-welcome">
+              Olá, me chamo Willian Froes! 👋
+            </span>
+
+            <span class="text text-employee">
+              Desenvolvedor de Software • Designer UX/UI
+            </span>
+          </div>
+
+          <div class="container container-md">
+            <div class="stack">
+              <span class="stack-name stack-name--front">
+                tecnologias
+              </span>
+              <span class="stack-techs">
+                React • React Native • TypeScript • Figma • Flask
+              </span>
+            </div>
+
+            <div class="stack">
+              <span class="stack-name stack-name--search">
+                pesquisando
+              </span>
+              <span class="stack-techs">
+                Visão Computacional • Computação Gráfica • IA
+              </span>
+            </div>
+
+            <div class="stack">
+              <span class="stack-name stack-name--pulls">
+                pull requests
+              </span>
+              <span class="stack-techs">
+                <strong class="metric">x</strong> mergeados
+              </span>
+            </div>
+
+            <div class="stack">
+              <span class="stack-name stack-name--reviews">
+                code reviews
+              </span>
+              <span class="stack-techs">
+                <strong class="metric">890</strong> aceitos / 0 rejeitados
+              </span>
+            </div>
+
+            <div class="stack">
+              <span class="stack-name stack-name--hobbies">
+                além do código
+              </span>
+              <span class="stack-techs">
+                Guitarra • Desenho • Moto • Videogames
+              </span>
+            </div>
           </div>
         </div>
       </div>
