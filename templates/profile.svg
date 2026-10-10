@@ -159,30 +159,6 @@
             <span class="text text-welcome">Olá, me chamo Willian Froes! 👋</span>
             <span class="text text-employee">Desenvolvedor de Software • Designer UX/UI</span>
           </div>
-
-          <!-- <div class="container container-md">
-            <div class="stack">
-              <span class="stack-name stack-name--front">front-end</span>
-              <span class="stack-techs">React • Next.js • JavaScript • TypeScript</span>
-            </div>
-            <div class="stack">
-              <span class="stack-name stack-name--mobile">mobile</span>
-              <span class="stack-techs">React Native • Flutter</span>
-            </div>
-            <div class="stack">
-              <span class="stack-name stack-name--design">design</span>
-              <span class="stack-techs">UX/UI • Design System • Storybook • Figma</span>
-            </div>
-            <div class="stack">
-              <span class="stack-name stack-name--search">pesquisa</span>
-              <span class="stack-techs">IA • Visão Computacional • Computação Gráfica</span>
-            </div>
-          </div> -->
-          <!-- 
-          <span class="text text-command">willian@github: ~$</span>
-          <span class="text text-commits">
-            📊 Commits realizados: <strong>COMMITS_COUNT=138</strong>
-          </span> -->
         </div>
       </div>
     </div>
