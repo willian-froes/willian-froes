@@ -16,7 +16,7 @@
 <br />
 
 <img
-  src="./assets/profile-stats.svg"
+  src="./assets/profile-stats2.svg"
   width="100%"
   alt="./profile-stats"
   style="user-select: none;"
