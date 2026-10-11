@@ -92,7 +92,7 @@
         }
 
         .commits-text {
-          font-sise: 14px;
+          font-size: 14px;
         }
 
         .commits-title {
