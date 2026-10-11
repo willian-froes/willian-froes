@@ -6,7 +6,7 @@
 
 <br/>
 
-<!-- <img
+<img
   src="./assets/terminal-history.svg"
   width="100%"
   alt="./histórico"
@@ -15,12 +15,31 @@
 
 <br />
 
+<img
+  src="./assets/profile-stats.svg"
+  width="100%"
+  alt="./profile-stats"
+  style="user-select: none;"
+/>
+
+<img
+  src="./assets/github-activity.svg"
+  width="100%"
+  alt="./profile-stats"
+  style="user-select: none;"
+/>
+
+
+<!-- 
+
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 16px;">
   <img src="./assets/github-activity.svg" alt="Atividade do GitHub no ano" style="display: block; flex: 1 1 380px; width: min(100%, 440px); max-width: 440px; height: auto;" />
   <img src="./assets/github-languages.svg" alt="Linguagens dos repositÃ³rios pÃºblicos" style="display: block; flex: 1 1 380px; width: min(100%, 440px); max-width: 440px; height: auto;" />
 </div>
 
-<br /> -->
+-->
+
+<br /> 
 
 <img
   src="./assets/terminal-technologies.svg"
