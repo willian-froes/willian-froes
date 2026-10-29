@@ -1,19 +1,23 @@
 {
   "username": "willian-froes",
   "year": 2026,
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-29",
   "contributions": {
-    "total": 373,
-    "commits": 130,
+    "total": 375,
+    "commits": 131,
     "pullRequests": 0,
     "reviews": 0,
     "issues": 0
   },
   "repositories": {
-    "count": 7,
+    "count": 8,
     "languages": [
       {
         "name": "JavaScript",
+        "count": 2
+      },
+      {
+        "name": "Outras",
         "count": 2
       },
       {
@@ -22,10 +26,6 @@
       },
       {
         "name": "HTML",
-        "count": 1
-      },
-      {
-        "name": "Outras",
         "count": 1
       },
       {
