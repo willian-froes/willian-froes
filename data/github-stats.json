@@ -1,10 +1,10 @@
 {
   "username": "willian-froes",
   "year": 2026,
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "contributions": {
-    "total": 380,
-    "commits": 134,
+    "total": 381,
+    "commits": 135,
     "pullRequests": 0,
     "reviews": 0,
     "issues": 0
@@ -13,12 +13,8 @@
     "count": 9,
     "languages": [
       {
-        "name": "HTML",
-        "count": 2
-      },
-      {
         "name": "JavaScript",
-        "count": 2
+        "count": 3
       },
       {
         "name": "Outras",
@@ -27,6 +23,10 @@
       {
         "name": "TypeScript",
         "count": 2
+      },
+      {
+        "name": "HTML",
+        "count": 1
       },
       {
         "name": "Python",
